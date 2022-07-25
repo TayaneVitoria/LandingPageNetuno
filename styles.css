@@ -1,3 +1,85 @@
-.titulo {
-    font-size: 25px;
-}
+    @import url(@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap'));
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Noto Fonts', noto sans;
+        background: #1A7FBD;
+    }
+    /* header */
+    
+    .box {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        border-bottom: 1px solid white;
+        height: 10vh;
+        display: flex;
+        background-color: #1A7FBD;
+        margin-top: 10px;
+        align-items: center;
+    }
+    
+    .Logo {
+        width: 200px;
+    }
+    
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul {
+        display: flex;
+        margin: 23px;
+        align-items: center;
+    }
+    
+    li {
+        color: white;
+        list-style-type: none;
+        cursor: pointer;
+        padding-left: 4rem;
+    }
+    
+    .btn {
+        padding: 15px 8px;
+        width: 180px;
+        color: #fff;
+        background-color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        user-select: none;
+    }
+    
+    .btn:hover {
+        background-color: #fff;
+        color: #1A7FBD;
+    }
+    /*conteúdo*/
+    
+    .conteudo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .divImg {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    .imgDev {
+        width: 750px;
+    }
+    
+    .divConteudo {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
