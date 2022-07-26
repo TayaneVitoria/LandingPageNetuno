@@ -70,8 +70,9 @@
     
     .divImg {
         display: flex;
-        justify-content: center;
+        justify-content: end;
         width: 50%;
+        padding: 0 50px;
     }
     
     .imgDev {
@@ -82,4 +83,42 @@
         display: flex;
         justify-content: center;
         width: 50%;
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    
+    .fundoBranco {
+        background-color: #fff;
+    }
+    
+    .paragrafo {
+        color: white;
+        font-size: 20px;
+        width: 350px;
+    }
+    
+    .tituloprojeto {
+        color: lightblue;
+    }
+    
+    .texto_problema {
+        color: black;
+        font-size: 20px;
+        width: 350px;
+        justify-content: center;
+        padding: 0 50px;
+        font-weight: bold;
+    }
+    
+    .text_problema {
+        color: black;
+        font-size: 20px;
+        padding: 0 50px;
+        width: 350px;
+    }
+    
+    .texto_problema {
+        color: black;
+        font-size: 20px;
+        padding: 0 50px;
     }
