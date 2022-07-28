@@ -21,11 +21,130 @@
         </div>
     </Header>
     <div class="conteudo">
-        <img src="assets/bannertopo.png" alt="">
+        <img class="topo" src="assets/bannertopo.png" alt="">
         <div class="form">
+            <h1 class="cadastro">Formulário de Cadastro</h1>
+            <br>
+            <p class="dados">Preencha seus dados</p>
+            <br>
+            <form>
+                <fieldset>
+                    <div>
+                        <input type="text" name="nome" id="nome" placeholder="Nome completo">
+                    </div>
+                    <div>
+                        <input type="text" name="email" id="email" placeholder="Email">
+                    </div>
+                    <div>
+
+
+                        <select class="select" id="estado">
+                            <option selected disabled value="">Estado</option>
+                            <option>Acre</option>
+                            <option>Alagoas</option>
+                            <option>Amapá</option>
+                            <option>Amazonas</option>
+                            <option>Bahia</option>
+                            <option>Ceará</option>
+                            <option>Distrito Federal</option>
+                            <option>Espírito Santo</option>
+                            <option>Goiás</option>
+                            <option>Maranhão</option>
+                            <option>Mato Grosso</option>
+                            <option>Mato Grosso do Sul</option>
+                            <option>Minas Gerais</option>
+                            <option>Pará</option>
+                            <option>Paraíba</option>
+                            <option>Paraná</option>
+                            <option>Pernambuco</option>
+                            <option>Piauí</option>
+                            <option>Rio de Janeiro</option>
+                            <option>Rio Grande do Norte</option>
+                            <option>Rio GRande do Sul</option>
+                            <option>Rondônia</option>
+                            <option>Roraima</option>
+                            <option>Santa Catarina</option>
+                            <option>São Paulo</option>
+                            <option>Sergipe</option>
+                            <option>Tocantins</option>
+                        </select>
+                    </div>
+
+
+                </fieldset>
+                <br>
+
+
+                <fieldset class="tec">
+                    <div>
+                        <div>
+                            <label>Conhecimento de Programação*</label><br><br>
+                            <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                            <label for="tecnologia1">HTML</label>
+                            <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                            <label for="tecnologia2">CSS</label>
+                            <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                            <label for="tecnologia3">JavaScript</label>
+                            <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                            <label for="tecnologia4">PHP</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="tecnologia5" name="tecnologia5" value=".NET">
+                            <label for="tecnologia5">.NET</label>
+                            <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Vue.JS">
+                            <label for="tecnologia6">Vue.JS</label>
+                            <input type="checkbox" id="tecnologia7" name="tecnologia7" value="ReactJS">
+                            <label for="tecnologia7">ReactJS</label>
+                            <input type="checkbox" id="tecnologia8" name="tecnologia8" value="React Native">
+                            <label for="tecnologia8">React Native</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="tecnologia9" name="tecnologia9" value="Node">
+                            <label for="tecnologia9">Node</label>
+                            <input type="checkbox" id="tecnologia10" name="tecnologia10" value="Python">
+                            <label for="tecnologia10">Python</label>
+                            <input type="checkbox" id="tecnologia11" name="tecnologia11" value="Flutter">
+                            <label for="tecnologia11">Flutter</label>
+                            <input type="checkbox" id="tecnologia12" name="tecnologia12" value="Outras">
+                            <label for="tecnologia10">Outras</label>
+                        </div>
+
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div>
+                        <label class="trab">Já trabalhou com desenvolvimento?</label><br> <br>
+                        <label>
+                        <input type="radio" name="devweb" value="nao">Não
+                    </label>
+                        <label>
+                        <input type="radio" name="devweb" value="sim">Sim
+                    </label>
+
+                        <br>
+                        <br>
+
+                    </div>
+                    <hr>
+                </fieldset>
+                <p class="campos">
+                    (*) Campos Obrigatórios
+                </p>
+                <br>
+
+
+                <button class="btnConcluido" type="submit">Enviar</button>
+                <br>
+                <p class="click">
+                    Ao clicar em enviar, você concorda com todos os termos de uso de dados descritos em política de privacidade.
+                </p>
+            </form>
+
         </div>
     </div>
-    <div class="conteudo">
+    <div class="conteudoProjeto">
         <div class="divImg">
             <img src="assets/dev.png" alt="" class="imgDev">
         </div>
@@ -35,6 +154,9 @@
             <p class="paragrafo">
                 Com o "novo normal" causado pela pandemia dos últimos anos, mais empresas no mundo todo têm aberto oportunidades no modelo Home Office. Aliando a depreciação da moeda local, temos um alto índice de profissionais migrando para trabalhos em outros países.
             </p>
+
+            <br>
+            <br>
             <br>
             <p class="paragrafo">
                 O projeto Netuno, idealizado pela Fasters, tem por objetivo reduzir os estresses causadas por recrutamento e turn over na área de tecnologia, bem como gerar oportunidades de carreira para novos profissionais.
@@ -42,10 +164,10 @@
 
         </div>
     </div>
-    <div class="conteudo fundoBranco">
+    <div class="divCaixinhas fundoBranco">
 
         <div class="divImg">
-            <img src="assets/Container2.png" alt="" class="imgDev">
+            <img src="assets/Container2.png" alt="" class="imgsenhora">
 
 
         </div>
@@ -74,7 +196,7 @@
 
     </div>
 
-    <div class="conteudo fundoBranco">
+    <div class="divCaixinhas fundoBranco">
 
 
 
@@ -103,6 +225,129 @@
     </div>
 
 
+
+    <div class="jornada fundoBranco">
+        <h1 class="tituloJornada">Sua Jornada</h1>
+        <br>
+        <div class="caixinhas">
+            <div class="btnJornada">
+                <img class="fundoicone" src="./assets/icones/calendario.png"> Programa de 4 meses de duração, sendo 6 horas/dia
+            </div>
+
+            <div class="btnJornada">
+                <img class="fundoicone" src="./assets/icones/medalha.png"> Do Zero ao Junior Promissor em 4 meses.
+            </div>
+            <div class="btnJornada">
+                <img class="fundoicone" src="./assets/icones/relogio.png"> 640 horas de aplicação prática dos conceitos.
+            </div>
+        </div>
+
+        <div class="caixinhas">
+            <div class="btnJornada">
+                <img class="fundoicone" src="./assets/icones/home.png"> Mentoria individual e coletiva em padrão ágil.</div>
+
+            <div class="btnJornada">
+                <img class="fundoiconegroup" src="./assets/icones/group.png"> 100% Home Office com plataformas de cursos online.
+            </div>
+            <div class="btnJornada">
+                <img class="fundoicone" src="./assets/icones/target.png"> Variedade de áreas dentro da tecnologia.
+            </div>
+        </div>
+        <div class="processo">
+            <button class="btnProcessoSeletivo" type="submit">Quero me cadastrar para o Processo Seletivo</button>
+            <img src="assets/Elements/Vector1.png" alt="" class="logo">
+        </div>
+
+    </div>
+
+
+    <div class="fundoazul">
+        <h1 class="tituloObjetivos">Objetivos</h1>
+
+        <div class="caixinhasobjetivos">
+            <div class="boxx caixafundobranco">
+                <h1 class="otimizar">Otimizar</h1>
+                <br>
+                <p class="text_otimizar letra_caixa">
+                    Otimizar todo processo de contratação chegando a contribuir com uma economia de 40% no processo de recrutamento.
+
+
+                </p>
+            </div>
+            <div class="boxx caixafundobranco">
+                <h1 class="gerar">Gerar</h1>
+                <br>
+                <p class="text_gerar letra_caixa">
+                    Gerar novas oportunidades de carreira para pessoas interessadas em ingressar na área ou migrar de outras áreas que esteja descontente.
+
+                </p>
+            </div>
+            <div class="boxx caixafundobranco">
+                <h1 class="filtrar">Filtrar</h1>
+                <br>
+                <p class="text_filtrar letra_caixa">
+                    Criar oportunidades brilhantes para profissionais que se destacarem junto a parceiros estratégicos de negócios.
+
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="rodape">
+        <div class="redesSociais">
+            <img class="logorodape" src="./assets/assets/slogan.png">
+            <div>
+                <img class="redes" src="./assets/icones/fb.png">
+                <img class="redes" src="./assets/icones/ig.png">
+                <img class="redes" src="./assets/icones/in.png">
+
+            </div>
+            <p class="direitos">Netuno© 2022 - Todos os direitos reservados</p>
+        </div>
+
+
+
+
+
+
+        <div class="divprocesso">
+            <button class="btnProcesso" type="submit">Processo Seletivo</button>
+        </div>
+
+        <div class="divlist">
+            <ul class="final">
+
+                <li>O Projeto</li>
+                <li>O Problema</li>
+                <li>Sua Jornada</li>
+                <li>Objetivos</li>
+            </ul>
+
+        </div>
+
+        <div class="divcontatos">
+            <ul class="final">
+
+                <li class="contatos">Contatos</li>
+                <br>
+
+
+                <li>11 91234.5678</li>
+                <li>contato@netuno.com.br</li>
+            </ul>
+
+        </div>
+
+
+
+    </div>
 
 
 
