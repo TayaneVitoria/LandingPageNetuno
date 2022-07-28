@@ -95,10 +95,13 @@
         color: white;
         font-size: 20px;
         width: 350px;
+        font-family: 'Noto Fonts', noto sans;
     }
     
     .tituloprojeto {
         color: lightblue;
+        font-size: 30px;
+        font-family: 'Noto Fonts', noto sans;
     }
     
     .texto_problema {
@@ -108,6 +111,7 @@
         justify-content: center;
         padding: 0 50px;
         font-weight: bold;
+        font-family: 'Noto Fonts', noto sans;
     }
     
     .text_problema {
@@ -115,10 +119,68 @@
         font-size: 20px;
         padding: 0 50px;
         width: 350px;
+        font-family: 'Noto Fonts', noto sans;
     }
     
     .texto_problema {
         color: black;
         font-size: 20px;
         padding: 0 50px;
+        font-weight: bold;
+        font-family: 'Noto Fonts', noto sans;
+    }
+    
+    .titulo_problema {
+        color: #1A7FBD;
+        font-size: 30px;
+        font-family: 'Noto Fonts', noto sans;
+    }
+    
+    .oportunidade {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Noto Fonts', noto sans;
+    }
+    
+    .text_oportunidade {
+        color: black;
+        font-family: 'Noto Fonts', noto sans;
+    }
+    
+    .comunidade {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Noto Fonts', noto sans;
+    }
+    
+    .text_comun {
+        color: black;
+        font-family: 'Noto Fonts', noto sans;
+    }
+    
+    .experiencia {
+        color: black;
+        font-size: 20px;
+        width: 350px;
+        font-weight: bold;
+        font-family: 'Noto Fonts', noto sans;
+    }
+    
+    .text_exp {
+        color: black;
+        font-family: 'Noto Fonts', noto sans;
+    }
+    
+    .letra_caixa {
+        font-size: 15px;
+    }
+    
+    .boxx {
+        width: 250px;
+        height: 200px;
+        margin: 0 20px 20px 20px;
+        box-shadow: 5px 30px 10px rgb(212, 210, 210);
+        padding: 10px;
     }
