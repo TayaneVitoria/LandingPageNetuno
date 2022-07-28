@@ -114,19 +114,19 @@
         .tituloprojeto {
             color: lightblue;
             font-size: 30px;
+            margin-bottom: 30px;
         }
         
         .texto_problema {
             color: black;
-            font-size: 20px;
-            width: 350px;
+            font-size: 16px;
             justify-content: center;
             font-weight: bold;
         }
         
         .text_problema {
             color: black;
-            font-size: 20px;
+            font-size: 16x;
             padding: 0 50px;
             margin: 10px 0;
             width: 350px;
@@ -134,15 +134,17 @@
         
         .texto_problema {
             color: black;
-            font-size: 20px;
+            font-size: 16px;
             padding: 0 50px;
             font-weight: bold;
+            width: 450px;
         }
         
         .titulo_problema {
             color: #1A7FBD;
             font-size: 30px;
             padding: 0 50px;
+            margin-bottom: 30px;
         }
         
         .oportunidade {
